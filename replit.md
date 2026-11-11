@@ -73,6 +73,8 @@ A web application with a Telegram bot backend that allows customers to rent temp
 - `VMOS_ACCESS_KEY` - VMOS Cloud Access Key ID
 - `VMOS_SECRET_KEY` - VMOS Cloud Secret Access Key
 - `SESSION_SECRET` - Express session secret
+- `ADMIN_API_KEY` - Shared secret accepted as `X-Admin-Api-Key` or `Authorization: Bearer` for the admin web/API surface
+- `ADMIN_USERNAME` / `ADMIN_PASSWORD` - HTTP Basic credentials for browser access to the admin web/API surface; configure either these or `ADMIN_API_KEY`
 
 ## Running
 - `npm run dev` - Start development server (Express + Vite)
